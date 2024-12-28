@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="9.3">
+<file name="/Users/jaysanghani/Downloads/pre-kdu-training/java_oops/src/main/java/com/prekdu/App.java">
+<error line="1" severity="error" message="Missing package-info.java file." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+</file>
+<file name="/Users/jaysanghani/Downloads/pre-kdu-training/java_oops/src/main/java/com/prekdu/packge-info.java">
+</file>
+</checkstyle>
