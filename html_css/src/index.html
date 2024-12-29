@@ -1,11 +1,192 @@
-<!-- 
-Use headings and paragraphs to divide different sections of the website.
-Use tables to explain your educational qualification.
-Add images for your projects and yourself
-Use HTML lists to talk about your skills 
-Use Links to Navigate to your LinkedIn or GitHub profiles.
+<!DOCTYPE html>
+<html lang="en">
 
-Style the entire webpage according to your creativity
-Use all these ways of adding style to your webpage.
-Use CSS selectors when styling your lists and tables.
--->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jay Sanghani</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        line-height: 1.6;
+        background-color: #f4f4f9;
+        color: #333;
+      }
+
+      h1,
+      h2,
+      h3 {
+        color: #0073e6;
+      }
+
+      header,
+      header h1 {
+        background: #0073e6;
+        color: #fff;
+        padding: 1rem 0;
+        text-align: center;
+      }
+
+      main {
+        padding: 2rem;
+      }
+
+      h5 {
+        font-size: 1rem;
+        font-style: italic;
+        color: #555;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 1rem 0;
+      }
+
+      table th,
+      table td {
+        border: 1px solid #ddd;
+        padding: 0.5rem;
+        text-align: left;
+      }
+
+      table th {
+        background-color: #0073e6;
+        color: #fff;
+      }
+
+      table tr:nth-child(even) {
+        background-color: #f9f9f9;
+      }
+
+      ul {
+        list-style-type: square;
+        padding-left: 1.5rem;
+      }
+
+      ul li {
+        margin: 0.5rem 0;
+      }
+
+      footer {
+        text-align: center;
+        background: #333;
+        color: #fff;
+        padding: 1rem 0;
+      }
+
+      footer a {
+        color: #0073e6;
+        text-decoration: none;
+        margin: 0 0.5rem;
+      }
+
+      footer a:hover {
+        text-decoration: underline;
+      }
+
+      img {
+        border: 2px solid #ddd;
+        border-radius: 5px;
+        margin: 1rem 0;
+      }
+
+      .aboutMe,
+      .education,
+      .Project,
+      .skills {
+        margin-bottom: 2rem;
+      }
+
+      .Project article {
+        margin-bottom: 1.5rem;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>Hello, I am Jay Sanghani.</h1>
+    </header>
+    <main>
+      <section class="aboutMe">
+        <h2>
+          I am from Jamnagar, Gujarat.
+          <br>Currently, I am a software developer intern at Kickdrum.
+          <br>
+          Looking forward to learning and growing with KDU.
+          <br>
+          Thank you.
+        </h2>
+      </section>
+      <section class="education">
+        <h2>Educational Qualification</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Degree</th>
+              <th>Year</th>
+              <th>Institute</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>B.Tech in Information and Communication Technology</td>
+              <td>2025</td>
+              <td>DA-IICT</td>
+            </tr>
+            <tr>
+              <td>12th</td>
+              <td>2021</td>
+              <td>Purohit Science School</td>
+            </tr>
+            <tr>
+              <td>10th</td>
+              <td>2019</td>
+              <td>Kalindi School</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="Project">
+        <h2>Projects</h2>
+        <article>
+          <h3>CampusGuard</h3>
+          <h5>ENTRY-EXIT MANAGEMENT SYSTEM FOR OUR UNIVERSITY</h5>
+          <p>
+            a comprehensive web application during a summer internship to
+            manage our university main gate operations,
+            replacing the outdated physical book system in a team of 2
+            members.</p>
+          <img src="p1.png" alt="Project Image" style="width: 300px; height: auto" />
+        </article>
+        <article>
+          <h3>InsureArea</h3>
+          <p>
+            INSURANCE POLICY MANAGEMENT SYSTEM FOR INSURANCE AGENTS
+          </p>
+        </article>
+      </section>
+      <section class="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>Web Development</li>
+          <li>C++ Programming</li>
+          <li>Data Structures and Algorithms</li>
+          <li>Object Oriented Programming</li>
+          <li>ReactJs</li>
+          <li>NodeJs</li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <p>My Social Media </p>
+      <a href="https://www.linkedin.com/in/sanghanijay/" target="_blank">LinkedIn</a>
+      <a href="https://github.com/Jaysanghani08" target="_blank">GitHub</a>
+    </footer>
+  </body>
+
+</html>
