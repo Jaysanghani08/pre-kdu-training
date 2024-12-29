@@ -44,7 +44,8 @@ public final class CSVWordFrequency {
    * @param topN the number of top repeated words to display
    * @throws IOException if an I/O error occurs
    */
-  private static void priTopRepeatedwords(final String filePath, final int topN) throws IOException {
+  private static void priTopRepeatedwords(final String filePath, final int topN)
+      throws IOException {
     Map<String, Integer> wordFrequency = new HashMap<>();
 
     try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
